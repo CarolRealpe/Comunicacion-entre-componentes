@@ -1,0 +1,22 @@
+.card {
+  background: #1a1a20;
+  padding: 25px;
+  border-radius: 10px;
+  border: 1px solid rgba(255,255,255,0.1);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  background: #111;
+  border: 1px solid rgba(255,255,255,0.2);
+  color: #fff;
+  border-radius: 8px;
+
+  &:focus {
+    border-color: #6c5ce7;
+    box-shadow: 0 0 4px rgba(108,92,231,0.6);
+    outline: none;
+  }
+}

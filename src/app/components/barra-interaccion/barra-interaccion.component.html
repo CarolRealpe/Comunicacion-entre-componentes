@@ -1,0 +1,20 @@
+<div class="sidebar-mini">
+
+  <div class="logo-container">
+  <img src="/logotipo_SENA.jpg" alt="SENA" class="logo-img">
+</div>
+
+
+  <button (click)="cambiarVista(1)" [class.activo]="seleccionado === 1">
+    <span class="material-icons">home</span>
+  </button>
+
+  <button (click)="cambiarVista(2)" [class.activo]="seleccionado === 2">
+    <span class="material-icons">settings</span>
+  </button>
+
+  <button (click)="cambiarVista(3)" [class.activo]="seleccionado === 3">
+    <span class="material-icons">folder</span>
+  </button>
+  
+</div>

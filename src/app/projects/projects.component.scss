@@ -1,0 +1,20 @@
+.card {
+  background: #1a1a20;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid rgba(255,255,255,0.1);
+  margin-bottom: 15px;
+  color: #eaeaea;
+
+  h3 {
+    color: #6c5ce7;
+  }
+
+  a {
+    color: #bcbcff;
+
+    &:hover {
+      color: lighten(#6c5ce7, 10%);
+    }
+  }
+}

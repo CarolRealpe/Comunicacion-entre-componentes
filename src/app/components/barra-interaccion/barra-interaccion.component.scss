@@ -1,0 +1,48 @@
+.sidebar-mini {
+  width: 80px;
+  height: 100vh;
+  background: #0f0f0f;
+  border-right: 1px solid rgba(255,255,255,0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+  gap: 20px;
+  z-index: 10;
+}
+
+.logo img {
+  width: 50px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 12px;
+  border-radius: 10px;
+  transition: .2s ease;
+
+  .material-icons {
+    color: #ccc;
+    font-size: 28px;
+  }
+
+  &:hover {
+    background: #222;
+  }
+
+  &.activo {
+    background: #ff2f70;
+    .material-icons {
+      color: white;
+    }
+  }
+}
+:host {
+  display: block;
+  position: relative;
+  z-index: 5;
+}

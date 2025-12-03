@@ -1,0 +1,28 @@
+h1 {
+  margin-bottom: 25px;
+  font-size: 28px;
+  color: #fff;
+}
+
+.card {
+  background: #222;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 25px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.card h2 {
+  margin-bottom: 12px;
+  color: #4dd0e1;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+
+  li {
+    padding: 6px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  }
+}
